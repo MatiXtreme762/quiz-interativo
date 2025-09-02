@@ -1,95 +1,95 @@
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Você gosta de Carros",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Sim",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Homem masculo",
+                    "Verdadeiro GearHead"
                 ],
             },
             {
-                texto: "afirmativa 2",
+                texto: "Não",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Blasfêmia",
+                    "Gay"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Palio ou Gol",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Palio",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Custo benefício",
+                    "Brasileiro Médio"
                 ],
             },
             {
-                texto: "afirmativa 2",
+                texto: "Gol",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Quer colocar um kit Turbo e dar pau em UP!",
+                    "Retardado"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Turbo ou Aspirado",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Turbo",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Maniaco",
+                    "Um homem feliz"
                 ],
             },
             {
-                texto: "afirmativa 2",
+                texto: "Aspirado",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Você quer um aspirado forte",
+                    "Não tem money pro turbo"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "Carro Antigo ou novo",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Antigo",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Mafioso",
+                    "Passa o dia mexendo no carro"
                 ],
             },
             {
-                texto: "afirmativa 2",
+                texto: "Novo",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Afeminado",
+                    "Filhinho de Papai"
                 ],
             }
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Se identificou GearHead",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Sim",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Sigma",
+                    "Homem masculo supremo"
                 ],
             },
             {
-                texto: "afirmativa 2",
+                texto: "Não",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "Gay?",
+                    "Blasfêmia!"
                 ],
             }
         ]
