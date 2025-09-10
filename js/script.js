@@ -14,46 +14,46 @@ let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
 
-botaoIniciar.addEventListener('click, iniciaJogo');
+botaoIniciar.addEventListener('click', iniciaJogo);
 
 function iniciaJogo() {
-    atual = 0;
-    historiaFinal = "";
-    telaInicial.computedStyleMap.display = 'none';
-    caixaPerguntas.classList.remove(".mostrar");
-    caixaAlternativas.classList.remove(".mostrar");
-    caixaResultado.classList.remove(".mostrar");
-    mostraPergunta();
+  atual = 0;
+  historiaFinal = "";
+  telaInicial.style.display = 'none';
+  caixaPerguntas.classList.remove(".mostrar");
+  caixaAlternativas.classList.remove(".mostrar");
+  caixaResultado.classList.remove(".mostrar");
+  mostraPergunta();
 }
 
-function mostraPergunta(){
-    if(atual >= perguntas.length){
-        mostraResultado();
-        return;
-    }
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
-    mostraAlternativa();
+function mostraPergunta() {
+  if(atual >= perguntas.length){
+    mostraResultado();
+    return;
+  }
+  perguntaAtual = perguntas[atual];
+  caixaPerguntas.textContent = perguntaAtual.enunciado;
+  caixaAlternativas.textContent = "";
+  mostraAlternativas();
 }
 
-function mostraAlternativa() {
-    for(const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild(botaoAlternativas);
-    }
+function mostraAlternativas() {
+  for(const alternativa of perguntaAtual.alternativas){
+      const botaoAlternativas = document.creatElement("button");
+      botaoAlternativas.textContent = alternativa.texto;
+      botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
+      caixaAlternativas.appendChild(botaoAlternativas);
+  }
 }
 
 function respostaSelecionada(opcaoSelecionada) {}
 
 function mostraResultado() {
-    caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
-    caixaResultado.classList.add(".mostrar");
-    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+  caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
+  textoResultado.textContent = historiaFinal;
+  caixaAlternativas.textContent = "";
+  caixaResultado.classList.add(".mostrar");
+  botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
 function jogarNovamente() {}
