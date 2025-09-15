@@ -6,7 +6,7 @@ export const perguntas = [
                 texto: "Sim",
                 afirmacao: [
                     "Homem masculo",
-                    "Verdadeiro GearHead"
+                    "Possivel GearHead"
                 ],
                 proxima: 3,
             },
