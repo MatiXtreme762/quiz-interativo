@@ -8,6 +8,7 @@ export const perguntas = [
                     "Homem masculo",
                     "Verdadeiro GearHead"
                 ],
+                proxima: 3,
             },
             {
                 texto: "Não",
@@ -27,6 +28,7 @@ export const perguntas = [
                     "Custo benefício",
                     "Brasileiro Médio"
                 ],
+                proxima: 2,
             },
             {
                 texto: "Gol",
@@ -34,6 +36,7 @@ export const perguntas = [
                     "Quer colocar um kit Turbo e dar pau em UP!",
                     "Retardado"
                 ],
+                proxima: 2,
             }
         ]
     },
@@ -46,6 +49,7 @@ export const perguntas = [
                     "Maniaco",
                     "Um homem feliz"
                 ],
+                proxima: 4,
             },
             {
                 texto: "Aspirado",
@@ -53,6 +57,7 @@ export const perguntas = [
                     "Você quer um aspirado forte",
                     "Não tem money pro turbo"
                 ],
+                proxima: 4,
             }
         ]
     },
@@ -65,6 +70,7 @@ export const perguntas = [
                     "Mafioso",
                     "Passa o dia mexendo no carro"
                 ],
+                proxima: 1,
             },
             {
                 texto: "Novo",
