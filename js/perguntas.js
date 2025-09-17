@@ -1,4 +1,5 @@
 export const perguntas = [
+    
     {
         enunciado: "Você gosta de Carros",
         alternativas: [
